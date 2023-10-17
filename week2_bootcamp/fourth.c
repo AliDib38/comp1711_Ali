@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 int main () {
-    float a;
-    float b;
-    printf("What is the height of the rectangle? \n");
-    scanf("%f", &a);
-    printf("what is the width of the rectangle? \n");
-    scanf("%f", &b);
-    printf();
+    int a = 1;
 
+    while (a <= 10) {
+        printf("a = %d\n", a*a);
+        a += 1;
+    }
+    return 0;
 }
